@@ -87,6 +87,8 @@ java CalculatorLauncher
 - **History:** View past calculations using `HIST`
 - **Exit:** Type `exit`
 
+![image alt ] (https://github.com/RingkhangBTY/Advanced_Calculator-GUI-/blob/6d21080e05e3885cc0c4bc2f0528284361b1419c/ConsoleTheme.jpg)
+
 ### 🎨 GUI Mode
 
 ```sh
@@ -111,9 +113,9 @@ java CalculatorLauncher
 - **Font:** "Orbitron" for a futuristic, sci-fi aesthetic.
 - **Layout:** Rounded edges and a transparent cosmic theme.
 
-![Calculator GUI](assets/calculator_gui.png)
+![image alt]( https://github.com/RingkhangBTY/Advanced_Calculator-GUI-/blob/6d21080e05e3885cc0c4bc2f0528284361b1419c/ConsoleTheme.jpg)
 
----
+
 
 ## 📌 Notes
 
@@ -128,14 +130,6 @@ java CalculatorLauncher
 - 🔹 Add a **Clear** button to reset the display.
 - 🔹 Support for **complex expressions** with nested parentheses.
 - 🔹 Save history to a file for persistence.
-- 🔹 Enhance the GUI with a **custom space background image**.
-
----
-
-## 🙌 Credits
-
-Built using **Java Swing** for the GUI and **standard Java** for the console interface.  
-💡 Space theme inspired by **cosmic visuals** and **sci-fi design principles**.
 
 ---
 
