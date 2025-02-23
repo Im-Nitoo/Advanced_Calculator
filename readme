@@ -87,7 +87,7 @@ java CalculatorLauncher
 - **History:** View past calculations using `HIST`
 - **Exit:** Type `exit`
 
-![image alt ] (https://github.com/RingkhangBTY/Advanced_Calculator-GUI-/blob/6d21080e05e3885cc0c4bc2f0528284361b1419c/ConsoleTheme.jpg)
+![Alt text](ConsoleTheme.jpg)
 
 ### 🎨 GUI Mode
 
@@ -113,7 +113,7 @@ java CalculatorLauncher
 - **Font:** "Orbitron" for a futuristic, sci-fi aesthetic.
 - **Layout:** Rounded edges and a transparent cosmic theme.
 
-![image alt]( https://github.com/RingkhangBTY/Advanced_Calculator-GUI-/blob/6d21080e05e3885cc0c4bc2f0528284361b1419c/ConsoleTheme.jpg)
+![Alt text](SpaceTheme.jpg)
 
 
 
