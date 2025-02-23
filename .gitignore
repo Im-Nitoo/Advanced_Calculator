@@ -1,5 +1,5 @@
-AdvancedCalculator.class
-AdvancedCalculatorGUI$ButtonListener.class
-AdvancedCalculatorGUI.class
-CalculatorCore.class
-CalculatorLauncher.class
+*.AdvancedCalculator.class
+*.AdvancedCalculatorGUI$ButtonListener.class
+*.AdvancedCalculatorGUI.class
+*.CalculatorCore.class
+*.CalculatorLauncher.class
