@@ -1,107 +1,142 @@
-# Advanced Calculator Project
+# 🌌 Advanced Calculator Project
 
-## Overview
+## 📌 Overview
 
-The Advanced Calculator is a versatile Java-based application designed to perform a wide range of mathematical operations as a part of our college project. It offers both a console-based interface and a stylish, space-themed GUI, providing users with flexibility and an engaging experience. Built with modularity in mind, the calculator leverages a shared `CalculatorCore` class to ensure consistency across interfaces.
+The **Advanced Calculator** is a versatile Java-based application designed to perform a wide range of mathematical operations. It features both a **console-based interface** and a stylish, **space-themed GUI**, giving users flexibility and an engaging experience. The application is built with modularity in mind, leveraging a shared `CalculatorCore` class to ensure consistency across interfaces.
 
-Developed as part of a project to implement an interactive calculator, this application supports basic arithmetic, scientific functions, memory operations, and history tracking, with accurate evaluation of expressions using the BODMAS rule.
+Developed as an interactive calculator project, it supports **basic arithmetic, scientific functions, memory operations, and history tracking**, all while accurately evaluating expressions using the **BODMAS rule**.
 
-## Features
+---
 
-- **Basic Arithmetic:** Addition (+), Subtraction (-), Multiplication (\*), Division (/).
-- **Scientific Functions:**
-  - Square Root (`sqrt`)
-  - Trigonometric Functions: Sine (`sin`), Cosine (`cos`), Tangent (`tan`)
-  - Logarithmic Functions: Natural Log (`ln`), Base-10 Log (`log`)
-  - Exponentiation (`^`)
-- **Memory Functions:** Store (`M+`), Recall (`MR`), Clear (`MC`).
-- **History Tracking:** Maintains a log of all calculations, viewable via the `HIST` option/button.
-- **BODMAS Support:** Evaluates expressions with correct operator precedence (e.g., `3 + 5 * 2 = 13`).
-- **Error Handling:** Robust checks for division by zero, invalid logarithms, and negative square roots.
-- **Interfaces:**
-  - **Console:** Interactive text-based interface with a numbered menu.
-  - **GUI:** Space-themed design with a starry background, neon colors, and glowing buttons.
+## ✨ Features
 
-## Project Structure
+✅ **Basic Arithmetic:** Addition (+), Subtraction (-), Multiplication (\*), Division (/).  
+✅ **Scientific Functions:**
 
-- `CalculatorCore.java`: Core logic for calculations, memory, and history.
-- `AdvancedCalculator.java`: Console-based interface.
-- `AdvancedCalculatorGUI.java`: Space-themed GUI interface.
-- `CalculatorLauncher.java`: Entry point to choose between console and GUI modes.
+- Square Root (`sqrt`)
+- Trigonometric Functions: Sine (`sin`), Cosine (`cos`), Tangent (`tan`)
+- Logarithmic Functions: Natural Log (`ln`), Base-10 Log (`log`)
+- Exponentiation (`^`)
+  ✅ **Memory Functions:** Store (`M+`), Recall (`MR`), Clear (`MC`).  
+  ✅ **History Tracking:** View past calculations using the `HIST` option/button.  
+  ✅ **BODMAS Support:** Correct operator precedence (e.g., `3 + 5 * 2 = 13`).  
+  ✅ **Error Handling:** Catches and displays errors (e.g., division by zero, invalid logarithms).  
+  ✅ **Interfaces:**
+- 🖥 **Console:** Interactive text-based interface.
+- 🎨 **GUI:** Space-themed design with neon colors and glowing buttons.
+  ✅ **Delete Functionality:** `DEL` button in GUI for removing the last input character.
 
-## Prerequisites
+---
 
-- **Java Development Kit (JDK):** Version 8 or higher.
-- **Optional:** Install the "Orbitron" font for the GUI (download from Google Fonts) or load it programmatically.
+## 📂 Project Structure
 
-## Setup Instructions
+```
+📁 AdvancedCalculatorProject
+ ├── CalculatorCore.java       # Core logic for calculations, memory, and history
+ ├── AdvancedCalculator.java   # Console-based interface
+ ├── AdvancedCalculatorGUI.java # Space-themed GUI interface
+ ├── CalculatorLauncher.java   # Entry point to choose between console & GUI modes
+```
 
-### Clone/Download the Project:
+---
 
-Copy the four `.java` files into a single directory.
+## ⚙️ Prerequisites
 
-### Compile the Code:
+- **Java Development Kit (JDK)**: Version 8 or higher.
+- **Optional:** Install the "Orbitron" font for a futuristic GUI look (download from Google Fonts).
 
-Open a terminal/command prompt in the project directory and run:
+---
+
+## 🚀 Setup Instructions
+
+### 🔹 Clone/Download the Project:
+
+Copy the `.java` files into a single directory.
+
+### 🔹 Compile the Code:
 
 ```sh
 javac *.java
 ```
 
-### Run the Application:
+### 🔹 Run the Application:
 
 ```sh
 java CalculatorLauncher
 ```
 
-A dialog will prompt you to choose between "Console" or "GUI".
+A dialog will prompt you to choose between **Console** or **GUI** mode.
 
-### Font Setup (Optional):
+### 🔹 Font Setup (Optional):
 
-For the GUI’s space theme, install the "Orbitron" font on your system, or add the `.ttf` file to your project and update `AdvancedCalculatorGUI.java` with the font-loading code (see comments in the file).
+For the GUI’s space theme, install the **"Orbitron" font** on your system, or add the `.ttf` file to your project and update `AdvancedCalculatorGUI.java` accordingly.
 
-## Usage Examples
+---
 
-### Console Mode
+## 🎮 Usage Examples
 
-- Launch with `java CalculatorLauncher` and select "Console".
-- Menu options:
-  - Evaluate Expression: `1`, input `3 + 5 * 2`, output: `Result: 13`
-  - Tangent: `5`, input `45`, output: `Result: 1.0`
-  - Log Base 10: `7`, input `100`, output: `Result: 2.0`
-  - History: `11`, displays all previous calculations.
-  - Exit with `exit`.
+### 📌 Console Mode
 
-### GUI Mode
+```sh
+java CalculatorLauncher
+```
 
-- Launch with `java CalculatorLauncher` and select "GUI".
-- Button interactions:
-  - Build an expression: Click `3`, `+`, `5`, `*`, `2`, then `=`, display shows `13`.
-  - Scientific functions: Enter `45`, click `tan`, display shows `1.0`.
-  - Logarithm: Enter `100`, click `log`, display shows `2.0`.
-  - Delete: Enter `123`, click `DEL`, display shows `12`.
-  - History: Click `HIST` to open a dialog with past calculations.
+- **Evaluate Expression:** Enter `3 + 5 * 2`, output: **Result: 13**
+- **Tangent:** Enter `45`, output: **Result: 1.0**
+- **Log Base 10:** Enter `100`, output: **Result: 2.0**
+- **History:** View past calculations using `HIST`
+- **Exit:** Type `exit`
 
-## Space Theme (GUI)
+### 🎨 GUI Mode
 
-- **Background:** A starry gradient from deep blue to purple.
+```sh
+java CalculatorLauncher
+```
+
+- **Example Operations:**
+  - Enter `3 + 5 * 2`, click `=`, output: **13**
+  - Enter `45`, click `tan`, output: **1.0**
+  - Enter `100`, click `log`, output: **2.0**
+  - Click `DEL` to remove the last character
+  - Click `HIST` to view calculation history
+
+---
+
+## 🪐 Space-Themed GUI
+
+🎨 **Design:**
+
+- **Background:** Starry gradient from deep blue to purple.
 - **Colors:** Neon cyan text and glowing button effects.
-- **Font:** "Orbitron" for a futuristic, sci-fi look.
-- **Design:** Rounded edges and a transparent, cosmic aesthetic.
+- **Font:** "Orbitron" for a futuristic, sci-fi aesthetic.
+- **Layout:** Rounded edges and a transparent cosmic theme.
 
-## Notes
+![Calculator GUI](assets/calculator_gui.png)
 
-- **Error Handling:** The calculator catches and displays errors (e.g., `Error: Division by zero`).
-- **Extensibility:** Add new functions by updating `CalculatorCore.java` and the respective interfaces.
-- **Font Fallback:** If "Orbitron" isn’t installed, the GUI defaults to a standard font (e.g., Arial).
+---
 
-## Future Enhancements
+## 📌 Notes
 
-- Add a "Clear" button/function to reset the display.
-- Support for complex expressions with nested parentheses.
-- Save history to a file for persistence.
+🔹 **Error Handling:** Prevents invalid calculations (e.g., division by zero).  
+🔹 **Extensibility:** Easily add new functions by updating `CalculatorCore.java`.  
+🔹 **Font Fallback:** Defaults to a standard font (e.g., Arial) if "Orbitron" isn’t installed.
 
-## Credits
+---
 
-- Built with **Java Swing** for the GUI and **standard Java** for console interaction.
-- Space theme inspired by cosmic visuals and sci-fi design principles.
+## 🔮 Future Enhancements
+
+- 🔹 Add a **Clear** button to reset the display.
+- 🔹 Support for **complex expressions** with nested parentheses.
+- 🔹 Save history to a file for persistence.
+- 🔹 Enhance the GUI with a **custom space background image**.
+
+---
+
+## 🙌 Credits
+
+Built using **Java Swing** for the GUI and **standard Java** for the console interface.  
+💡 Space theme inspired by **cosmic visuals** and **sci-fi design principles**.
+
+---
+
+🚀 **Happy Calculating!** 🪐
